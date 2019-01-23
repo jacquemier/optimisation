@@ -13,3 +13,5 @@ echo " "
 echo "----> g++ -o3 optimisation <-------"
 ./o3
 echo " "
+echo "----> g++ --funroll-loops optimisation <-------"
+./o3_unroll
