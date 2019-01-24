@@ -22,7 +22,7 @@ int main(){
         array_b[i]=i+i/2;
   }
 
- intrinsic_vect_add_unloop( result, array_a, array_b);
+ intrinsic_vect_add_unrool( result, array_a, array_b);
  assert ( result [NB_COL * NB_LINE-1] == 249997 );
  for (size_t i(0lu); i<NB_LINE * NB_COL; ++i){
         result[i] = 0;

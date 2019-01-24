@@ -1,0 +1,10 @@
+default
+o
+o0
+o1
+o2
+o3
+o3_unroll
+o3_vec
+ofast_vec
+test
